@@ -1,0 +1,49 @@
+.btn-git{
+	background: #555;
+	color: #ccc;
+	display: block;
+	width: 100%;
+	padding-left: 40px;
+}
+.btn-git:visited{
+	background: #555;
+	color: #ccc;
+}
+.btn-git:hover,
+.btn-git:active,
+.btn-git:focus{
+	background: #ccc;
+	color: #555;
+}
+
+.img-git{
+	color: black;
+	position: absolute;
+	left: 20px;
+    top: 6px;
+    vertical-align: bottom;
+}
+
+.span{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    text-align: left;
+    font-family: "Lato", "Lucida Grande", "Lucida Sans Unicode", Tahoma, Sans-Serif;
+
+}
+
+label{
+	color: #bbb;
+}
+body {
+    /*background-image: url("https://lh3.googleusercontent.com/dcz54kGCQbZterUjMT6SQsA2DMmSliqF9pni5yKf_hOXURPAA_EdsTGmqVeSjqZ_y8A=h900");*/
+   /* background-image: url("https://lh3.googleusercontent.com/552PdxAbXnKPl8izEe-JV5uH7vXEyjC5XdwvLifjPvXqJUh0otCnjCFAgC5CO9RsFB8=h900");*/
+  /*   background-image: url("https://wallpaperscraft.com/image/macbook_apple_laptop_keyboard_112500_1920x1080.jpg");*/
+ /*  background-image: url("https://ugc.kn3.net/i/origin/http://www.fondox.net/wallpapers/textura-de-color-negro-198.jpg");*/
+background-image: url(" http://wallpaperrs.com/uploads/photography/black-brick-wall-wide-wallpaper-28213.jpg");
+    image-rendering: auto;
+   background-position: top; 
+    background-color: #cccccc;
+}

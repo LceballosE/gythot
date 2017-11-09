@@ -1,0 +1,39 @@
+/*estilo de bloque de galeria*/
+
+* {box-sizing:border-box;}
+dl {
+  font-size:10;
+  padding:6px;
+  width: 70%;
+  margin: 20px auto;
+  align-content: center;
+
+}
+dl li { 
+  display:inline-flex;
+  color:white;
+  background: #333;
+  
+  width:150px;
+  height:150px;
+  border:1.5px solid lightgray;
+  position:center;
+  overflow:hidden;
+  align-content: center;
+  border-radius: 30px;
+}
+.content {
+  background: #ff8f2d;  /*color de los cuadros*/
+  width: 150px;
+  height:150px;
+  align-content: center;
+ 
+}
+.overlay {
+  width: 150px;
+  height:150px;
+  background:rgba(0,0,0,0.6);
+  position:absolute;
+  top:100%;
+  align-content: center;
+}

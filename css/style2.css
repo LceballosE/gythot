@@ -1,0 +1,130 @@
+
+/* fondo*/
+@import url("https://fonts.googleapis.com/css?family=Ubuntu:300,700");
+.fontTitle, h1, .credit p {
+  font-family: Ubuntu, sans-serif;
+
+  letter-spacing: 10px; /*separacion de las letras titulo*/
+  text-transform: uppercase;
+}
+
+body {
+    /*background-image: url("https://lh3.googleusercontent.com/dcz54kGCQbZterUjMT6SQsA2DMmSliqF9pni5yKf_hOXURPAA_EdsTGmqVeSjqZ_y8A=h900");*/
+   /* background-image: url("https://lh3.googleusercontent.com/552PdxAbXnKPl8izEe-JV5uH7vXEyjC5XdwvLifjPvXqJUh0otCnjCFAgC5CO9RsFB8=h900");*/
+  /*   background-image: url("https://wallpaperscraft.com/image/macbook_apple_laptop_keyboard_112500_1920x1080.jpg");*/
+ /*  background-image: url("https://ugc.kn3.net/i/origin/http://www.fondox.net/wallpapers/textura-de-color-negro-198.jpg");*/
+background-image: url(" http://wallpaperrs.com/uploads/photography/black-brick-wall-wide-wallpaper-28213.jpg");
+    image-rendering: auto;
+   background-position: top; 
+    background-color: #cccccc;
+}
+
+h1 {
+   font-weight: 200;
+  text-align: center;
+  color: #089598;
+}
+
+.credit {
+  position: relative;
+  top: 30px;
+}
+.credit p {
+  font-size: 18px;
+  font-weight: 800;
+  text-align: center;
+}
+.credit a {
+  transition: all 200ms ease-in-out;
+}
+.credit a:link,
+.credit a:visited,
+.credit a:hover,
+.credit a:active {
+  text-decoration: none;
+  color: #000000;
+}
+.credit a:hover {
+  color: #ffad49;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+.img_container {
+  position: relative;
+  left: 50vw;
+  top: 50vh;
+  transform: translate(-50%, -50%);
+  box-shadow: 10px 10px 32px -8px rgba(0, 0, 0, 0.5);
+  width: 360px;
+  height: 200px;
+  transition: all 250ms ease-in-out;
+}
+.img_container:hover {
+  transform: translate(-50%, -50%) scale(1.1, 1.1);
+}
+.img_container .xray_box {
+  background: #b79c89;
+  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #8c8475, #ada185);
+  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, #8c8475, #ada185);
+  /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  transform: scale(0, 1);
+  transform-origin: center;
+}
+.img_container img {
+  width: 360px;
+  height: 200px;
+}
+
+.box_in {
+  animation: hover 350ms ease-in-out forwards;
+}
+
+.box_out {
+  animation: new_hover 350ms ease-in-out forwards;
+}
+
+@keyframes new_hover {
+  0% {
+    transform: scale(0, 1);
+    transform-origin: right;
+  }
+  50% {
+    transform: scale(1, 1);
+    transform-origin: right;
+  }
+  55% {
+    transform: scale(1, 1);
+    transform-origin: left;
+  }
+  100% {
+    transform: scale(0, 1);
+    transform-origin: left;
+  }
+}
+@keyframes hover {
+  0% {
+    transform: scale(0, 1);
+    transform-origin: left;
+  }
+  50% {
+    transform: scale(1, 1);
+    transform-origin: left;
+  }
+  55% {
+    transform: scale(1, 1);
+    transform-origin: right;
+  }
+  100% {
+    transform: scale(0, 1);
+    transform-origin: right;
+  }
+}
