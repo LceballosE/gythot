@@ -3,6 +3,7 @@
 include 'jsonActions.php';
 
 
+
 $jsonManager = jsonData::Instance();
 
 
@@ -16,9 +17,8 @@ else
 	
 $jsonManager->updateMyJson();
 $jsonManager->createNewVersion(0);
-echo " <meta http-equiv='refresh' content='0;URL=cambio.php />";
+echo " <meta http-equiv='refresh' content='0;URL=cambio.php' />";
 }	
 
  //
  ?>
-

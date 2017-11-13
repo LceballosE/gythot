@@ -126,7 +126,7 @@
               </div>
               
                       <h2 style="color: yellow">
-                          Toma la desición 
+                          Toma la decisión 
                       </h2>
                     
         </div>

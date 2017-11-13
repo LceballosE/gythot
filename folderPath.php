@@ -47,7 +47,7 @@
                     <a href="inicio.php"><i class="fa fa-home 3x" style="color: #5bc692" ></i>    inicio</a>
                 </li>
                  <li>
-                    <a href="nuevogit.php"><i class="fa fa-folder-open-o 3x" style="color: #5bc692" ></i> Nuevo Git!!!</a>
+                    <a href="folderPath.php"><i class="fa fa-folder-open-o 3x" style="color: #5bc692" ></i> Nuevo Git!!!</a>
                 </li>
                 <li>
                     <a href="aummajor.php"><i class="fa fa-file 3x" style="color: #5bc692" ></i> Crear Major</a>
@@ -75,7 +75,7 @@
 
 
 <div id="page-content-wrapper" >
-             <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle" style="color: black; text-align: center;"  ><i class="fa fa-bars  5x fa-fw" aria-hidden="true" style="color: black" ></i></a>
+   <a href="#menu-toggle" class="btn btn-secondary" id="menu-toggle" style="color: black; text-align: center;"  ><i class="fa fa-bars  5x fa-fw" aria-hidden="true" style="color: black" ></i></a>
 
 
             <div class="container">
@@ -107,7 +107,7 @@
 			<span>No hay carpetas.</span>
 		</div>
 
-	</div>
+	   </div>
 
 	<div class="filemanager2">
 		<ul class="data2"></ul>
@@ -115,10 +115,10 @@
 
 	
 
-                        </div>
     </div>
+  </div>
            
-        </div>
+ </div>
 
 </div>
 <!--

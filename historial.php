@@ -44,7 +44,7 @@
                     <a href="inicio.php"><i class="fa fa-home 3x" style="color: #5bc692" ></i>    inicio</a>
                 </li>
                  <li>
-                    <a href="nuevogit.php"><i class="fa fa-folder-open-o 3x" style="color: #5bc692" ></i> Nuevo Git!!!</a>
+                    <a href="folderPath.php"><i class="fa fa-folder-open-o 3x" style="color: #5bc692" ></i> Nuevo Git!!!</a>
                 </li>
                 <li>
                     <a href="aummajor.php"><i class="fa fa-file 3x" style="color: #5bc692" ></i> Crear Major</a>
@@ -87,7 +87,10 @@
      <div class="col">
          <div class="jumbotron" style="background: black ;opacity : 0.68; padding: 15px 0 15px; text-align: center; border-radius: 40px" >
        <!--    ************************ Mezcla php ***html-->              
-                 <div class="filemanager">
+        
+
+
+        <div class="filemanager">
         
         <div class="breadcrumbs"></div>
         
@@ -116,21 +119,7 @@
 </div>
 <!--
  "<li>
-                                        <div class='content' style='background: #5bc692'> 
-                                            <h2>
-                                            <i class='fa fa-folder-open-o 3x'  style='color: #000000'  >
-                                                <a href='$path/$file'>$file
-                                                </a>
-                                            </i>
-                                            </h2>
-                                        </div>
-                                        <div class='overlay'>
-                                        </div>
-                                    </li>";      
--->
 
-
-    <!-- /#wrapper -->
 
     <!-- Bootstrap core JavaScript -->
     <script src="vendor/jquery/jquery.min.js"></script>
